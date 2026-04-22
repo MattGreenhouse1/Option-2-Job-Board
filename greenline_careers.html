@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers at GreenLine Technologies</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header / Navbar Styling */
+        header {
+            background-color: #004a26; /* Deep Green for GreenLine */
+            padding: 20pt 40pt;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 18pt;
+            font-weight: bold;
+            letter-spacing: -0.5pt;
+        }
+
+        nav {
+            font-size: 10pt;
+            text-transform: uppercase;
+            letter-spacing: 1pt;
+        }
+
+        nav span {
+            margin-left: 20pt;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #f4f7f6;
+            padding: 60pt 40pt;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .hero h1 {
+            font-size: 28pt;
+            margin-bottom: 10pt;
+            color: #1a1a1a;
+        }
+
+        .hero p {
+            font-size: 12pt;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Job Board Container */
+        .careers-container {
+            padding: 40pt;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 16pt;
+            border-bottom: 2px solid #004a26;
+            padding-bottom: 10pt;
+            margin-bottom: 30pt;
+            color: #004a26;
+            text-transform: uppercase;
+            letter-spacing: 1pt;
+        }
+
+        /* Mock Greenhouse Embed Styling */
+        #grnhse_app {
+            min-height: 400pt;
+            border: 1px dashed #ccc;
+            background-color: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: #888;
+            padding: 30pt 40pt;
+            font-size: 9pt;
+            text-align: center;
+            margin-top: 40pt;
+        }
+
+        .footer-links {
+            margin-bottom: 15pt;
+        }
+
+        .footer-links span {
+            margin: 0 10pt;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">GreenLine <span style="font-weight: 300; opacity: 0.8;">Technologies</span></div>
+        <nav>
+            <span>Solutions</span>
+            <span>About</span>
+            <span>Careers</span>
+            <span>Contact</span>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Shape the Future of Tech</h1>
+        <p>Join a team of innovators, thinkers, and creators. We are looking for passionate individuals to help us build the next generation of sustainable technology.</p>
+    </div>
+
+    <div class="careers-container">
+        <h2 class="section-title">Current Openings</h2>
+        
+        <!-- Greenhouse Embed Div -->
+        <div id="grnhse_app">
+            [Greenhouse Job Board will load here in the browser]
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <span>Privacy Policy</span>
+            <span>Terms of Service</span>
+            <span>Sustainability Report</span>
+        </div>
+        <div>&copy; 2026 GreenLine Technologies Inc. All rights reserved.</div>
+    </footer>
+
+    <!-- Greenhouse Script Tag -->
+    <script src="https://boards.greenhouse.io/embed/job_board/js?for=greenlinetest"></script>
+
+</body>
+</html>
